@@ -1,11 +1,11 @@
 package:
   name: planemo
-  version: "0.33.2"
+  version: "0.29.1"
 
 source:
-  fn: planemo-0.33.2.tar.gz
-  url: https://pypi.python.org/packages/d9/56/074bc99330b3f3903125d183d5382abe27552a113f1a0f8fa53dce416a3d/planemo-0.33.2.tar.gz
-  md5: 311fce18254a91196f71dfec9fb517c2
+  fn: planemo-0.29.1.tar.gz
+  url: https://pypi.python.org/packages/79/41/4d65672ebe325f7c101366521d9b9d6d2b1e5b828953985da9509f8dd96f/planemo-0.29.1.tar.gz
+  md5: 06c8b488ed86e66fc88adcad551bb50a
 
 build:
   preserve_egg_dir: True
@@ -24,8 +24,7 @@ requirements:
     - bioblend >=0.8.0
     - jinja2
     - virtualenv
-    - galaxy-lib >=16.10.3
-    - lxml
+    - galaxy-lib >=16.7.10
     - aenum
 
   run:
@@ -36,8 +35,7 @@ requirements:
     - bioblend >=0.8.0
     - jinja2
     - virtualenv
-    - galaxy-lib >=16.10.3
-    - lxml
+    - galaxy-lib >=16.7.10
     - aenum
 
 test:
