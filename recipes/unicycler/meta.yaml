@@ -30,6 +30,7 @@ requirements:
   - samtools >=1.0
   - blast 
   - freebayes
+  - minimap
 
 test:
   commands:
